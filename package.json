@@ -1,0 +1,45 @@
+{
+  "name": "goku",
+  "version": "1.0.0",
+  "description": "Jokul Go service wrapper",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@fathalfath30.github.com:fathalfath30/goku.git"
+  },
+  "keywords": [
+    "go",
+    "jokul",
+    "go",
+    "lang",
+    "doku"
+  ],
+  "author": "Fathalfath30 <fathalfath30@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "commitizen": "^4.2.3",
+    "custom-cz-conventional-changelog-for-jira": "^0.0.0-semantically-released",
+    "husky": "^6.0.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "install": "^0.13.0",
+    "nodemon": "2.0.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/custom-cz-conventional-changelog-for-jira",
+      "jiraOptional": true
+    }
+  }
+}
