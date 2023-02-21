@@ -2,7 +2,6 @@
   "name": "goku",
   "version": "1.0.0",
   "description": "Jokul Go service wrapper",
-  "main": "index.js",
   "directories": {
     "example": "example",
     "test": "test"
@@ -28,13 +27,10 @@
     "@commitlint/config-conventional": "^12.1.1",
     "commitizen": "^4.2.3",
     "custom-cz-conventional-changelog-for-jira": "^0.0.0-semantically-released",
-    "husky": "^6.0.0",
-    "pre-commit": "^1.2.2"
-  },
-  "dependencies": {
+    "pre-commit": "^1.2.2",
     "cz-conventional-changelog": "^3.3.0",
-    "install": "^0.13.0",
-    "nodemon": "2.0.7"
+    "nodemon": "2.0.7",
+    "husky": "^6.0.0"
   },
   "config": {
     "commitizen": {
