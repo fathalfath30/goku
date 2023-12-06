@@ -2,13 +2,8 @@
   "name": "goku",
   "version": "1.0.0",
   "description": "Jokul Go service wrapper",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Fathalfath30 <fathalfath30@gmail.com>",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git@fathalfath30.github.com:fathalfath30/goku.git"
@@ -20,8 +15,6 @@
     "lang",
     "doku"
   ],
-  "author": "Fathalfath30 <fathalfath30@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
@@ -37,5 +30,8 @@
       "path": "./node_modules/custom-cz-conventional-changelog-for-jira",
       "jiraOptional": true
     }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
