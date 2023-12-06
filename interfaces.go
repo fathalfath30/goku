@@ -15,8 +15,23 @@
 //
 */
 
-package main
+package goku
 
-func main() {
+type (
+	IPayment interface{}
 
-}
+	IGoku interface {
+		// BaseUrl will return base url for production or development depends
+		// on config.Mode
+		BaseUrl() string
+
+		// Mode will return current mode
+		Mode() Mode
+
+		// IsDevelopmentMode will return true if config.Mode is "goku.ModeDevelopment"
+		IsDevelopmentMode() bool
+
+		// LogEnabled will return true if config.EnableLog is true
+		LogEnabled() bool
+	}
+)
